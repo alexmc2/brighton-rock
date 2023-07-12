@@ -23,11 +23,6 @@ html {
   }
 }
 
-@media (max-width: 576px) {
-  .nav-item-footer {
-    font-size: 0.85rem;
-  }
-}
 
 .navbar-sticky {
   opacity: 0.99;
@@ -56,9 +51,27 @@ html {
   border: none;
 }
 
-@media (min-width: 768px) {  
+@media (min-width: 992px) {
   .list-group-item-dates {
-      font-size: 1.2rem;  
+    font-size: 1.2rem;
+  }
+}
+
+@media (min-width: 1040px) {
+  .carousel-item img {
+    max-width: 55%;
+  }
+}
+
+@media (min-width: 992px) {
+  .carousel-item img {
+    max-width: 80%;
+  }
+}
+
+@media (min-width: 992px) {
+  .list-group-item {
+    font-size: 1.2rem;
   }
 }
 
@@ -76,7 +89,9 @@ html {
     text-align: center;
   }
 }
-
+.nav-link.nav-button-footer:hover {
+  color: rgb(192, 191, 230) !important;
+}
 @media (max-width: 992px) {
   .nav-button {
     background: transparent !important;
