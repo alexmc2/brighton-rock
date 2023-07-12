@@ -23,8 +23,10 @@ html {
     font-size: 1rem;
     padding: 0.25rem;
   }
-  .nav-item .nav-link {
-    font-size: 0.8rem;
+}
+@media (max-width: 576px) {
+  .nav-item-footer {
+    font-size: 0.85rem;
   }
 }
 .navbar-sticky {
@@ -54,7 +56,12 @@ html {
   border: none;
 }
 
-@media (max-width: 1000px) {
+@media (min-width: 768px) {
+  .list-group-item-dates {
+    font-size: 1.2rem;
+  }
+}
+@media (max-width: 992px) {
   .navbar {
     background: var(--bs-dark);
   }
@@ -66,7 +73,7 @@ html {
     text-align: center;
   }
 }
-@media (max-width: 1000px) {
+@media (max-width: 992px) {
   .nav-button {
     background: transparent !important;
     border: none !important;
