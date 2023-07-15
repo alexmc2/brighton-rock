@@ -91,16 +91,6 @@ html {
     font-size: 1rem !important;
   }
 }
-@media (min-width: 1040px) {
-  .carousel-item img {
-    max-width: 55%;
-  }
-}
-@media (min-width: 992px) {
-  .carousel-item img {
-    max-width: 80%;
-  }
-}
 @media (min-width: 992px) {
   .list-group-item {
     font-size: 1.2rem;
@@ -129,5 +119,37 @@ html {
   }
   .nav-button:hover {
     color: rgb(192, 191, 230) !important;
+  }
+}
+@media (min-width: 1200px) {
+  .carousel-control-next-icon,
+  .carousel-control-prev-icon {
+    background-image: none !important;
+  }
+  .carousel-control-next::before,
+  .carousel-control-prev::before {
+    content: ">";
+    font-size: 40px;
+    color: rgb(201, 201, 201);
+  }
+  .carousel-control-prev::before {
+    content: "<";
+  }
+}
+.carousel-indicators button {
+  opacity: 0;
+  background-color: transparent !important;
+  box-shadow: none !important;
+  border: none !important;
+}
+
+@media (min-width: 1040px) {
+  .carousel-item img {
+    max-width: 80%;
+  }
+}
+@media (min-width: 1200px) {
+  .carousel-item img {
+    max-width: 60%;
   }
 }
