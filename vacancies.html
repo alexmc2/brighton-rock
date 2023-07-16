@@ -18,11 +18,13 @@
   </head>
   <body>
     <!-- Navigation -->
-    <nav class="navbar navbar-expand-lg fixed-top navbar-dark">
+    <nav class="navbar navbar-expand-lg fixed-top navbar-dark navbar-dark">
       <div class="container">
+        <i id="theme-toggle" class="fas fa-adjust fa-2x text-white"></i>
         <a href="index.html" class="navbar-brand">
           BRIGHTON ROCK HOUSING CO-OP
         </a>
+
         <button
           class="navbar-toggler"
           type="button"
@@ -75,7 +77,7 @@
             <div class="col-md-12"></div>
             <div class="col-md-12">
               <div
-                class="text-container p-4 d-flex flex-column justify-content-center h-100 mb-5"
+                class="text-container header-text-container p-4 d-flex flex-column justify-content-center h-100 mb-5"
               >
                 <h1 class="display-3 fw-bold">Current Vacancies</h1>
               </div>
@@ -130,7 +132,7 @@
                 </p>
 
                 <a
-                  class="btn btn-primary text-white mt-4 align-self-start"
+                  class="btn btn-primary text-white mt-4 align-self-start button-dark"
                   data-bs-toggle="modal"
                   data-bs-target="#modal2"
                   >Our Application Process</a
@@ -151,102 +153,111 @@
 
     <!-- Modal 2 -->
     <div id="modal2" class="modal fade">
-      <div class="modal-dialog modal-lg mt-7">
-        <div class="modal-content p-5">
-          <div class="row">
-            <div class="col-lg-12">
-              <div class="list-group-item">
-                <div class="container">
-                  <h2 class="display-6">
-                    Application Process at Brighton Rock
-                  </h2>
-                  <p>The application process is as follows:</p>
-                  <p>
-                    When vacancies arise, we invite those interested in joining
-                    us to visit the co-op, where they can view the properties,
-                    meet some of our members, and ask any questions they may
-                    have. Application forms will be provided at the viewing,
-                    which should be completed and returned by the specified date.
-                  </p>
-                  <p>
-                    Your attendance at a general meeting would also be
-                    advantageous so that you can get a better understanding of
-                    how the co-op works. Our monthly meetings are typically on
-                    weekday evenings at 7:30PM and the dates can be found
-                    <a href="https://brighton-rock.org/meeting-dates">here</a>.
-                  </p>
-                  <p>The shortlisting is based on the following criteria:</p>
-                  <ul class="list-group list-group-flush lh-lg">
-                    <li class="list-group-item">
-                      <i class="fas fa-square text-primary"></i>
-                      Housing need
-                    </li>
-                    <li class="list-group-item">
-                      <i class="fas fa-square text-primary"></i>
-                      Ability to pay rent (from wages or benefits) and expected
-                      duration of tenancy
-                    </li>
-                    <li class="list-group-item">
-                      <i class="fas fa-square text-primary"></i>
-                      Relevant skills and what you can bring to the co-op
-                    </li>
-                    <li class="list-group-item">
-                      <i class="fas fa-square text-primary"></i>
-                      Willingness to share, respect others, and uphold equal
-                      opportunities
-                    </li>
-                    <li class="list-group-item">
-                      <i class="fas fa-square text-primary"></i>
-                      Ability to actively engage and work within a group
-                    </li>
-                    <li class="list-group-item mb-3">
-                      <i class="fas fa-square text-primary"></i>
-                      Compatibility with co-op in terms of lifestyle and work
-                    </li>
-                  </ul>
-                  <p>
-                    If you are invited for an interview, our allocations officer
-                    will inform you of the time and place and at least five
-                    day's notice will be given. The interview is scheduled on a
-                    specified weekend day, and all members of the co-op will be
-                    present. Unfortunately, due to the difficulty co-ordinating
-                    the weekend availability of members, no flexibility can be
-                    offered for the interview date.
-                  </p>
+      <div class="dark-theme-container">
+        <div class="modal-dialog modal-lg mt-7">
+          <div class="modal-content p-5">
+            <div class="row">
+              <div class="col-lg-12">
+                <div class="list-group-item">
+                  <div class="container">
+                    <h2 class="display-6">
+                      Application Process at Brighton Rock
+                    </h2>
+                    <p>The application process is as follows:</p>
+                    <p>
+                      When vacancies arise, we invite those interested in
+                      joining us to visit the co-op, where they can view the
+                      properties, meet some of our members, and ask any
+                      questions they may have. Application forms will be
+                      provided at the viewing, which should be completed and
+                      returned by the specified date.
+                    </p>
+                    <p>
+                      Your attendance at a general meeting would also be
+                      advantageous so that you can get a better understanding of
+                      how the co-op works. Our monthly meetings are typically on
+                      weekday evenings at 7:30PM and the dates can be found
+                      <a href="https://brighton-rock.org/meeting-dates">here</a
+                      >.
+                    </p>
+                    <p>The shortlisting is based on the following criteria:</p>
+                    <ul class="list-group list-group-flush lh-lg">
+                      <li class="list-group-item">
+                        <i class="fas fa-square text-primary"></i>
+                        Housing need
+                      </li>
+                      <li class="list-group-item">
+                        <i class="fas fa-square text-primary"></i>
+                        Ability to pay rent (from wages or benefits) and
+                        expected duration of tenancy
+                      </li>
+                      <li class="list-group-item">
+                        <i class="fas fa-square text-primary"></i>
+                        Relevant skills and what you can bring to the co-op
+                      </li>
+                      <li class="list-group-item">
+                        <i class="fas fa-square text-primary"></i>
+                        Willingness to share, respect others, and uphold equal
+                        opportunities
+                      </li>
+                      <li class="list-group-item">
+                        <i class="fas fa-square text-primary"></i>
+                        Ability to actively engage and work within a group
+                      </li>
+                      <li class="list-group-item mb-3">
+                        <i class="fas fa-square text-primary"></i>
+                        Compatibility with co-op in terms of lifestyle and work
+                      </li>
+                    </ul>
+                    <p>
+                      If you are invited for an interview, our allocations
+                      officer will inform you of the time and place and at least
+                      five day's notice will be given. The interview is
+                      scheduled on a specified weekend day, and all members of
+                      the co-op will be present. Unfortunately, due to the
+                      difficulty co-ordinating the weekend availability of
+                      members, no flexibility can be offered for the interview
+                      date.
+                    </p>
 
-                  <p>
-                    During the interview, each member will in turn ask the
-                    applicant a question. The questions and format of the
-                    interview are identical for every applicant. You will also
-                    have the opportunity to ask us any questions that you may
-                    have at this stage. We understand a panel interview can be
-                    intimidating, so we aim to make it as relaxed as possible.
-                  </p>
-                  <p>
-                    If successful at the first interview, applicants will be
-                    invited to a more casual meeting over a cup of tea with
-                    their potential housemates. This provides an opportunity for
-                    both current members and applicants to gauge if they would
-                    be a good fit for each other. Notification of your
-                    application's status will follow this meeting.
-                  </p>
-                  <p>
-                    New members will connect with the secretary and rent officer
-                    to sign the tenancy agreement and membership forms. You are
-                    expected to move in and start paying rent within one month,
-                    unless other arrangements have been agreed.
-                  </p>
-                  <p>
-                    If you want to be notified of future vacancies, please
-                    contact our allocations officer at:
-                    <a href="mailto:vacanciesbtnrock@gmail.com"
-                      >vacanciesbtnrock@gmail.com</a
+                    <p>
+                      During the interview, each member will in turn ask the
+                      applicant a question. The questions and format of the
+                      interview are identical for every applicant. You will also
+                      have the opportunity to ask us any questions that you may
+                      have at this stage. We understand a panel interview can be
+                      intimidating, so we aim to make it as relaxed as possible.
+                    </p>
+                    <p>
+                      If successful at the first interview, applicants will be
+                      invited to a more casual meeting over a cup of tea with
+                      their potential housemates. This provides an opportunity
+                      for both current members and applicants to gauge if they
+                      would be a good fit for each other. Notification of your
+                      application's status will follow this meeting.
+                    </p>
+                    <p>
+                      New members will connect with the secretary and rent
+                      officer to sign the tenancy agreement and membership
+                      forms. You are expected to move in and start paying rent
+                      within one month, unless other arrangements have been
+                      agreed.
+                    </p>
+                    <p>
+                      If you want to be notified of future vacancies, please
+                      contact our allocations officer at:
+                      <a href="mailto:vacanciesbtnrock@gmail.com"
+                        >vacanciesbtnrock@gmail.com</a
+                      >
+                    </p>
+
+                    <button
+                      class="btn btn-dark mt-2 button-dark"
+                      data-bs-dismiss="modal"
                     >
-                  </p>
-
-                  <button class="btn btn-dark mt-2" data-bs-dismiss="modal">
-                    Close
-                  </button>
+                      Close
+                    </button>
+                  </div>
                 </div>
               </div>
             </div>
@@ -254,8 +265,7 @@
         </div>
       </div>
     </div>
-
-    <footer class="border-top border-primary bg-dark pb-2 text-white py-3">
+    <footer class="bg-dark pb-2 pt-4 text-white py-3 navbar-dark">
       <div class="container">
         <div class="row">
           <div class="col-md-8 text-md-center">

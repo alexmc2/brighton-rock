@@ -18,11 +18,14 @@
   </head>
   <body>
     <!-- Navigation -->
-    <nav class="navbar navbar-expand-lg fixed-top navbar-dark">
+    <nav class="navbar navbar-expand-lg fixed-top navbar-dark navbar-dark">
       <div class="container">
+        <i id="theme-toggle" class="fas fa-adjust fa-2x text-white"></i>
+
         <a href="index.html" class="navbar-brand">
           BRIGHTON ROCK HOUSING CO-OP
         </a>
+
         <button
           class="navbar-toggler"
           type="button"
@@ -78,7 +81,7 @@
             </div>
             <div class="col-md-6">
               <div
-                class="text-container p-4 d-flex flex-column justify-content-center h-100 mb-5"
+                class="text-container header-text-container p-4 d-flex flex-column justify-content-center h-100 mb-5"
               >
                 <h1 class="display-3 fw-bold">Welcome to Brighton Rock</h1>
                 <p class="lead">
@@ -130,7 +133,7 @@
                   that is shared between the three houses.
                 </p>
                 <a
-                  class="btn btn-primary text-white mt-4 align-self-start"
+                  class="btn btn-primary text-white mt-4 align-self-start button-dark"
                   data-bs-toggle="modal"
                   data-bs-target="#modal1"
                   >More About Us</a
@@ -142,113 +145,118 @@
       </div>
     </section>
     <!-- Modal 1 -->
-    <div id="modal1" class="modal fade">
-      <div class="modal-dialog modal-lg mt-7">
-        <div class="modal-content p-5">
-          <div class="row">
-            <div class="col-lg-12">
-              <div class="text-container">
-                <h2 class="display-6">Brighton Rock Housing Co-operative</h2>
-                <ul class="list-group list-group-flush lh-lg">
-                  <li class="list-group-item">
-                    <i class="fas fa-square text-primary"></i>
-                    <strong>We are a "self-help" housing co-operative:</strong>
-                    Often referred to as "short-life", we utilise properties
-                    that are unsuitable for letting for an agreed period of
-                    time, which can sometimes extend for many years. For more
-                    information please visit self-help-housing.org.
-                  </li>
-                  <li class="list-group-item">
-                    <i class="fas fa-square text-primary"></i>
-                    <strong
-                      >Brighton Rock is guided by the general co-operative
-                      principles:</strong
-                    >
-                    It offers members a safe environment and secure tenancy.
-                    Brighton Rock has 12 housed members, all of whom have equal
-                    rights - there is no hierarchy. Everyone is expected to
-                    attend regular monthly meetings, and is actively involved in
-                    the running, decision making, and administration of the
-                    co-op.
-                  </li>
-                  <li class="list-group-item">
-                    <i class="fas fa-square text-primary"></i>
-                    <strong>Everyone has their own room:</strong> Personal rooms
-                    are respected as strictly personal space. All other areas in
-                    the co-op are shared.
-                  </li>
-                  <li class="list-group-item">
-                    <i class="fas fa-square text-primary"></i>
-                    <strong
-                      >Brighton Rock aims to be environmentally aware:</strong
-                    >
-                    We strive to minimise our environmental impact through
-                    resource conservation and reducing waste.
-                  </li>
-                  <li class="list-group-item">
-                    <i class="fas fa-square text-primary"></i>
-                    <strong>The rent is set at an affordable level:</strong>
-                    This is paid in advance (from wages or benefits). Brighton
-                    Rock has a strict arrears policy which is rigorously
-                    applied.
-                  </li>
-                  <li class="list-group-item">
-                    <i class="fas fa-square text-primary"></i>
-                    <strong
-                      >All members contribute to the running of the
-                      co-op</strong
-                    >
-                    by taking on a job, such as maintenance coordinator, rent
-                    officer, treasurer, secretary, garden coordinator, shop
-                    keeper, and development officer. Members report on their
-                    role at the monthly meeting and the AGM.
-                  </li>
-                  <li class="list-group-item">
-                    <i class="fas fa-square text-primary"></i>
-                    <strong
-                      >Members are expected to attend monthly general meetings
-                      and occasional emergency meetings:</strong
-                    >
-                    These take place on weekday evenings at 7.30pm and generally
-                    last between 1 and 2 hours.
-                  </li>
-                  <li class="list-group-item">
-                    <i class="fas fa-square text-primary"></i>
-                    <strong
-                      >We have a co-op handbook with policies and
-                      guidelines</strong
-                    >
-                    for the safe and smooth running of the co-op. The policies
-                    and guidelines are written and reviewed by co-op members.
-                  </li>
-                  <li class="list-group-item">
-                    <i class="fas fa-square text-primary"></i>
-                    <strong
-                      >Members are expected to show interest and
-                      participate:</strong
-                    >
-                    This might involve occasional policy and project development
-                    groups, in addition to garden work and general maintenance
-                    workdays.
-                  </li>
-                  <li class="list-group-item">
-                    <i class="fas fa-square text-primary"></i>
-                    <strong>The rooms are single occupancy</strong>
-                    and can't be allocated to couples or those with children who
-                    live with them. Guests are welcome, however, if agreed by
-                    other members of the house. We also have a no pets policy
-                    although this is currently under review to allow for cats.
-                  </li>
-                  <li class="list-group-item">
-                    <i class="fas fa-square text-primary"></i>
-                    <strong>To balance all the hard work </strong>
-                    we also have occasional social gatherings in the houses or
-                    garden.
-                  </li>
-                </ul>
-                <button class="btn btn-dark mt-2" data-bs-dismiss="modal">
-                  Close
-                </button>
+    <div class="dark-theme-container">
+      <div id="modal1" class="modal fade">
+        <div class="modal-dialog modal-lg mt-7">
+          <div class="modal-content p-5">
+            <div class="row">
+              <div class="col-lg-12">
+                <div class="text-container">
+                  <h2 class="display-6">Brighton Rock Housing Co-operative</h2>
+                  <ul class="list-group list-group-flush lh-lg">
+                    <li class="list-group-item">
+                      <i class="fas fa-square text-primary"></i>
+                      <strong
+                        >We are a "self-help" housing co-operative:</strong
+                      >
+                      Often referred to as "short-life", we utilise properties
+                      that are unsuitable for letting for an agreed period of
+                      time, which can sometimes extend for many years. For more
+                      information please visit self-help-housing.org.
+                    </li>
+                    <li class="list-group-item">
+                      <i class="fas fa-square text-primary"></i>
+                      <strong
+                        >Brighton Rock is guided by the general co-operative
+                        principles:</strong
+                      >
+                      It offers members a safe environment and secure tenancy.
+                      Brighton Rock has 12 housed members, all of whom have
+                      equal rights - there is no hierarchy. Everyone is expected
+                      to attend regular monthly meetings, and is actively
+                      involved in the running, decision making, and
+                      administration of the co-op.
+                    </li>
+                    <li class="list-group-item">
+                      <i class="fas fa-square text-primary"></i>
+                      <strong>Everyone has their own room:</strong> Personal
+                      rooms are respected as strictly personal space. All other
+                      areas in the co-op are shared.
+                    </li>
+                    <li class="list-group-item">
+                      <i class="fas fa-square text-primary"></i>
+                      <strong
+                        >Brighton Rock aims to be environmentally aware:</strong
+                      >
+                      We strive to minimise our environmental impact through
+                      resource conservation and reducing waste.
+                    </li>
+                    <li class="list-group-item">
+                      <i class="fas fa-square text-primary"></i>
+                      <strong>The rent is set at an affordable level:</strong>
+                      This is paid in advance (from wages or benefits). Brighton
+                      Rock has a strict arrears policy which is rigorously
+                      applied.
+                    </li>
+                    <li class="list-group-item">
+                      <i class="fas fa-square text-primary"></i>
+                      <strong
+                        >All members contribute to the running of the
+                        co-op</strong
+                      >
+                      by taking on a job, such as maintenance coordinator, rent
+                      officer, treasurer, secretary, garden coordinator, shop
+                      keeper, and development officer. Members report on their
+                      role at the monthly meeting and the AGM.
+                    </li>
+                    <li class="list-group-item">
+                      <i class="fas fa-square text-primary"></i>
+                      <strong
+                        >Members are expected to attend monthly general meetings
+                        and occasional emergency meetings:</strong
+                      >
+                      These take place on weekday evenings at 7.30pm and
+                      generally last between 1 and 2 hours.
+                    </li>
+                    <li class="list-group-item">
+                      <i class="fas fa-square text-primary"></i>
+                      <strong
+                        >We have a co-op handbook with policies and
+                        guidelines</strong
+                      >
+                      for the safe and smooth running of the co-op. The policies
+                      and guidelines are written and reviewed by co-op members.
+                    </li>
+                    <li class="list-group-item">
+                      <i class="fas fa-square text-primary"></i>
+                      <strong
+                        >Members are expected to show interest and
+                        participate:</strong
+                      >
+                      This might involve occasional policy and project
+                      development groups, in addition to garden work and general
+                      maintenance workdays.
+                    </li>
+                    <li class="list-group-item">
+                      <i class="fas fa-square text-primary"></i>
+                      <strong>The rooms are single occupancy</strong>
+                      and can't be allocated to couples or those with children
+                      who live with them. Guests are welcome, however, if agreed
+                      by other members of the house. We also have a no pets
+                      policy although this is currently under review to allow
+                      for cats.
+                    </li>
+                    <li class="list-group-item">
+                      <i class="fas fa-square text-primary"></i>
+                      <strong>To balance all the hard work </strong>
+                      we also have occasional social gatherings in the houses or
+                      garden.
+                    </li>
+                  </ul>
+                  <button class="btn btn-dark mt-2 button-dark" data-bs-dismiss="modal">
+                    Close
+                  </button>
+                </div>
               </div>
             </div>
           </div>
@@ -259,7 +267,7 @@
     <section class="statement bg-light pb-4">
       <div class="container text-center">
         <!-- Added 'text-center' class -->
-        <div class="text-container bg-white p-5 rounded-5">
+        <div class="text-container bg-white p-5 rounded-5 gallery-container">
           <h2>Gallery</h2>
           <div class="row">
             <div class="col-12">
@@ -1328,7 +1336,7 @@
                   democratically-controlled enterprise."
                 </p>
                 <a
-                  class="btn btn-primary text-white mt-4 align-self-start"
+                  class="btn btn-primary text-white mt-4 align-self-start button-dark"
                   data-bs-toggle="modal"
                   data-bs-target="#modal2"
                   >Find Out More</a
@@ -1341,93 +1349,98 @@
     </section>
     <!-- Modal 2 -->
     <div id="modal2" class="modal fade">
-      <div class="modal-dialog modal-lg mt-7">
-        <div class="modal-content p-5">
-          <div class="row">
-            <div class="col-lg-12">
-              <div class="text-container">
-                <h2 class="display-6">
-                  Cooperative identity, values, and principles
-                </h2>
-                <p>
-                  <a
-                    href="https://www.ica.coop/en/cooperatives/cooperative-identity"
-                    >Reproduced from International Co-op Alliance
-                  </a>
-                </p>
-                <ul class="list-group list-group-flush lh-lg">
-                  <li class="list-group-item">
-                    <i class="fas fa-square text-primary"></i>
-                    <strong>Voluntary and Open Membership:</strong> Cooperatives
-                    are voluntary organisations, open to all persons able to use
-                    their services and willing to accept the responsibilities of
-                    membership, without gender, social, racial, political or
-                    religious discrimination.
-                  </li>
-                  <li class="list-group-item">
-                    <i class="fas fa-square text-primary"></i>
-                    <strong>Democratic Member Control:</strong> Cooperatives are
-                    democratic organisations controlled by their members, who
-                    actively participate in setting their policies and making
-                    decisions. Men and women serving as elected representatives
-                    are accountable to the membership. In primary cooperatives
-                    members have equal voting rights (one member, one vote) and
-                    cooperatives at other levels are also organised in a
-                    democratic manner.
-                  </li>
-                  <li class="list-group-item">
-                    <i class="fas fa-square text-primary"></i>
-                    <strong>Member Economic Participation:</strong> Members
-                    contribute equitably to, and democratically control, the
-                    capital of their cooperative. At least part of that capital
-                    is usually the common property of the cooperative. Members
-                    usually receive limited compensation, if any, on capital
-                    subscribed as a condition of membership. Members allocate
-                    surpluses for any or all of the following purposes:
-                    developing their cooperative, possibly by setting up
-                    reserves, part of which at least would be indivisible;
-                    benefiting members in proportion to their transactions with
-                    the cooperative; and supporting other activities approved by
-                    the membership.
-                  </li>
-                  <li class="list-group-item">
-                    <i class="fas fa-square text-primary"></i>
-                    <strong>Autonomy and Independence:</strong> Cooperatives are
-                    autonomous, self-help organisations controlled by their
-                    members. If they enter into agreements with other
-                    organisations, including governments, or raise capital from
-                    external sources, they do so on terms that ensure democratic
-                    control by their members and maintain their cooperative
-                    autonomy.
-                  </li>
-                  <li class="list-group-item">
-                    <i class="fas fa-square text-primary"></i>
-                    <strong>Education, Training, and Information:</strong>
-                    Cooperatives provide education and training for their
-                    members, elected representatives, managers, and employees so
-                    they can contribute effectively to the development of their
-                    co-operatives. They inform the general public - particularly
-                    young people and opinion leaders - about the nature and
-                    benefits of co-operation.
-                  </li>
-                  <li class="list-group-item">
-                    <i class="fas fa-square text-primary"></i>
-                    <strong>Cooperation among Cooperatives:</strong>
-                    Cooperatives serve their members most effectively and
-                    strengthen the cooperative movement by working together
-                    through local, national, regional and international
-                    structures.
-                  </li>
-                  <li class="list-group-item">
-                    <i class="fas fa-square text-primary"></i>
-                    <strong>Concern for Community:</strong> Cooperatives work
-                    for the sustainable development of their communities through
-                    policies approved by their members.
-                  </li>
-                </ul>
-                <button class="btn btn-dark mt-2" data-bs-dismiss="modal">
-                  Close
-                </button>
+      <div class="dark-theme-container">
+        <div class="modal-dialog modal-lg mt-7">
+          <div class="modal-content p-5">
+            <div class="row">
+              <div class="col-lg-12">
+                <div class="text-container">
+                  <h2 class="display-6">
+                    Cooperative identity, values, and principles
+                  </h2>
+                  <p>
+                    <a
+                      href="https://www.ica.coop/en/cooperatives/cooperative-identity"
+                      >Reproduced from International Co-op Alliance
+                    </a>
+                  </p>
+                  <ul class="list-group list-group-flush lh-lg">
+                    <li class="list-group-item">
+                      <i class="fas fa-square text-primary"></i>
+                      <strong>Voluntary and Open Membership:</strong>
+                      Cooperatives are voluntary organisations, open to all
+                      persons able to use their services and willing to accept
+                      the responsibilities of membership, without gender,
+                      social, racial, political or religious discrimination.
+                    </li>
+                    <li class="list-group-item">
+                      <i class="fas fa-square text-primary"></i>
+                      <strong>Democratic Member Control:</strong> Cooperatives
+                      are democratic organisations controlled by their members,
+                      who actively participate in setting their policies and
+                      making decisions. Men and women serving as elected
+                      representatives are accountable to the membership. In
+                      primary cooperatives members have equal voting rights (one
+                      member, one vote) and cooperatives at other levels are
+                      also organised in a democratic manner.
+                    </li>
+                    <li class="list-group-item">
+                      <i class="fas fa-square text-primary"></i>
+                      <strong>Member Economic Participation:</strong> Members
+                      contribute equitably to, and democratically control, the
+                      capital of their cooperative. At least part of that
+                      capital is usually the common property of the cooperative.
+                      Members usually receive limited compensation, if any, on
+                      capital subscribed as a condition of membership. Members
+                      allocate surpluses for any or all of the following
+                      purposes: developing their cooperative, possibly by
+                      setting up reserves, part of which at least would be
+                      indivisible; benefiting members in proportion to their
+                      transactions with the cooperative; and supporting other
+                      activities approved by the membership.
+                    </li>
+                    <li class="list-group-item">
+                      <i class="fas fa-square text-primary"></i>
+                      <strong>Autonomy and Independence:</strong> Cooperatives
+                      are autonomous, self-help organisations controlled by
+                      their members. If they enter into agreements with other
+                      organisations, including governments, or raise capital
+                      from external sources, they do so on terms that ensure
+                      democratic control by their members and maintain their
+                      cooperative autonomy.
+                    </li>
+                    <li class="list-group-item">
+                      <i class="fas fa-square text-primary"></i>
+                      <strong>Education, Training, and Information:</strong>
+                      Cooperatives provide education and training for their
+                      members, elected representatives, managers, and employees
+                      so they can contribute effectively to the development of
+                      their co-operatives. They inform the general public -
+                      particularly young people and opinion leaders - about the
+                      nature and benefits of co-operation.
+                    </li>
+                    <li class="list-group-item">
+                      <i class="fas fa-square text-primary"></i>
+                      <strong>Cooperation among Cooperatives:</strong>
+                      Cooperatives serve their members most effectively and
+                      strengthen the cooperative movement by working together
+                      through local, national, regional and international
+                      structures.
+                    </li>
+                    <li class="list-group-item">
+                      <i class="fas fa-square text-primary"></i>
+                      <strong>Concern for Community:</strong> Cooperatives work
+                      for the sustainable development of their communities
+                      through policies approved by their members.
+                    </li>
+                  </ul>
+                  <button
+                    class="btn btn-dark mt-2 button-dark"
+                    data-bs-dismiss="modal"
+                  >
+                    Close
+                  </button>
+                </div>
               </div>
             </div>
           </div>
@@ -1468,7 +1481,9 @@
       </div>
     </section>
 
-    <footer class="border-top border-primary bg-dark pb-2 text-white py-3">
+    <footer
+      class=" bg-dark pb-2 pt-4 text-white py-3 navbar-dark"
+    >
       <div class="container">
         <div class="row">
           <div class="col-md-8 text-md-center">
