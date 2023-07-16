@@ -267,3 +267,10 @@ body.dark-theme form .form-control {
     font-size: 18px;
   }
 }
+body.dark-theme form input:focus,
+body.dark-theme form textarea:focus {
+  background-color: rgba(192, 192, 192, 0.4470588235) !important;
+  color: #fff700 !important;
+  outline: none !important;
+  box-shadow: none !important;
+}

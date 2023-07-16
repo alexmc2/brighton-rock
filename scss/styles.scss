@@ -2,7 +2,12 @@
   color: var(--bs-dark);
 }
 .navbar .btn-outline-light {
-  border-color: rgba(255, 255, 255, 0.09); /* Change the 0.1 to adjust opacity */
+  border-color: rgba(
+    255,
+    255,
+    255,
+    0.09
+  ); /* Change the 0.1 to adjust opacity */
 }
 body.dark-theme .navbar {
   background-color: var(--bs-dark);
@@ -198,7 +203,7 @@ html {
 }
 
 .dark-theme .text-container:not(.header-text-container) a {
-  color: #fff700
+  color: #fff700;
 }
 
 .dark-theme .navbar-dark {
@@ -209,12 +214,12 @@ html {
 .dark-theme .button-dark {
   background-color: #0c374e !important;
   color: #ffffff !important;
-  border-color: rgba(255, 255, 255, 0.1); 
+  border-color: rgba(255, 255, 255, 0.1);
 }
 .dark-theme .submit-dark {
   background-color: #15464b !important;
   color: #ffffff !important;
-  border-color: rgba(255, 255, 255, 0.04) !important; 
+  border-color: rgba(255, 255, 255, 0.04) !important;
 }
 
 .dark-theme .dark-theme-container .list-group-item {
@@ -227,9 +232,8 @@ html {
 }
 
 body.dark-theme .modal-content a {
-  color: #fff700 !important; 
+  color: #fff700 !important;
 }
-
 
 .dark-theme .fas.fa-square.text-primary {
   color: #fff700 !important;
@@ -254,7 +258,7 @@ body.dark-theme form textarea {
   color: #fff700 !important;
 }
 body.dark-theme .form-control::placeholder {
-  color: #454545 !important; 
+  color: #454545 !important;
   opacity: 1; /* Firefox requirement */
 }
 
@@ -289,3 +293,10 @@ body.dark-theme form .form-control {
   }
 }
 
+body.dark-theme form input:focus,
+body.dark-theme form textarea:focus {
+  background-color: #c0c0c072 !important;
+  color: #fff700 !important;
+  outline: none !important;
+  box-shadow: none !important;
+}
