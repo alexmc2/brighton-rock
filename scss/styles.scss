@@ -300,3 +300,12 @@ body.dark-theme form textarea:focus {
   outline: none !important;
   box-shadow: none !important;
 }
+
+.vacancy h2 {
+  color: red !important;
+}
+
+
+.dark-theme .vacancy h2 {
+  color: #fff700 !important;
+}
