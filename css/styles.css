@@ -274,7 +274,3 @@ body.dark-theme form textarea:focus {
   outline: none !important;
   box-shadow: none !important;
 }
-
-.dark-theme .vacancy h2 {
-  color: #fff700 !important;
-}
