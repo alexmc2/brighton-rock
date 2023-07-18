@@ -303,10 +303,6 @@ body.dark-theme form textarea:focus {
 }
 
 .square-button {
-  border-radius: 0 !important;
+  border-radius: 5px !important;
   padding: 10px 20px !important; /* Adjusts the padding to make the button square */
-}
-.square-button {
-  border-radius: 0 !important; 
-  padding: 10px 20px !important;
 }
