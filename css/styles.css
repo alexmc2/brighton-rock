@@ -160,15 +160,15 @@ html {
 }
 
 .dark-theme .statement {
-  background-color: #0c374e !important;
+  background-color: #40728b !important;
 }
 
 .dark-theme .frame-decoration .cls-1 {
-  fill: #0c374e;
+  fill: #40728b;
 }
 
 .dark-theme .cls-1 {
-  fill: #0c374e;
+  fill: #637b87;
 }
 
 .dark-theme .text-container:not(.header-text-container) {
@@ -186,7 +186,7 @@ html {
 }
 
 .dark-theme .button-dark {
-  background-color: #0c374e !important;
+  background-color: #40728b !important;
   color: #ffffff !important;
   border-color: rgba(255, 255, 255, 0.1);
 }
@@ -224,14 +224,14 @@ body.dark-theme .social {
 }
 
 body.dark-theme .contact {
-  background-color: #0c374e !important;
+  background-color: #40728b !important;
   color: #ffffff !important;
 }
 
 body.dark-theme form input,
 body.dark-theme form textarea {
-  background-color: rgba(192, 192, 192, 0.4470588235) !important;
-  color: #fff700 !important;
+  background-color: rgba(255, 255, 255, 0.3568627451) !important;
+  color: #000000 !important;
 }
 
 body.dark-theme .form-control::placeholder {
@@ -270,7 +270,7 @@ body.dark-theme form .form-control {
 body.dark-theme form input:focus,
 body.dark-theme form textarea:focus {
   background-color: rgba(192, 192, 192, 0.4470588235) !important;
-  color: #fff700 !important;
+  color: #000000 !important;
   outline: none !important;
   box-shadow: none !important;
 }
