@@ -2,8 +2,6 @@
   color: var(--bs-dark);
 }
 
-
-
 .navbar .btn-outline-light {
   border-color: rgba(
     255,
@@ -15,7 +13,6 @@
 body.dark-theme .navbar {
   background-color: var(--bs-dark);
 }
-
 
 .navbar {
   transition: all 0.5s ease-in-out;
@@ -216,7 +213,7 @@ html {
 }
 
 .dark-theme .button-dark {
-  background-color: #40728b  !important;
+  background-color: #40728b !important;
   color: #ffffff !important;
   border-color: rgba(255, 255, 255, 0.1);
 }
@@ -252,7 +249,7 @@ body.dark-theme .social {
 }
 
 body.dark-theme .contact {
-  background-color: #40728b  !important;
+  background-color: #40728b !important;
   color: #ffffff !important;
 }
 
