@@ -2,6 +2,25 @@
   color: var(--bs-dark);
 }
 
+.dark-theme .nav-button:hover {
+  background-color: #40728b;
+}
+.dark-theme .nav-button:hover {
+  color: white !important;
+}
+
+.nav-button:hover {
+  color: white !important;
+}
+
+.dark-theme .btn:hover {
+  background-color: #37647b !important;
+}
+
+.dark-theme .button-dark {
+  transition: background-color 0.5s ease !important;
+}
+
 .navbar .btn-outline-light {
   border-color: rgba(
     255,
@@ -255,16 +274,35 @@ body.dark-theme .contact {
 
 body.dark-theme form input,
 body.dark-theme form textarea {
-  background-color: #ffffff5b !important;
-  color: #000000 !important;
+  background-color: #1f3334a5 !important;
+  color: #ffffff !important;
+}
+
+body.dark-theme form input:focus,
+body.dark-theme form textarea:focus {
+  background-color: #15464b !important;
+  color: #ffffff !important;
+  outline: none !important;
+  box-shadow: none !important;
 }
 body.dark-theme .form-control::placeholder {
-  color: #454545 !important;
+  color: #b6b6b6 !important;
   opacity: 1; /* Firefox requirement */
 }
 
 body.dark-theme form .form-control {
   border-color: rgba(255, 255, 255, 0.1); /* 0.1 to adjust opacity */
+}
+
+body.dark-theme form input:-webkit-autofill,
+body.dark-theme form textarea:-webkit-autofill,
+body.dark-theme form input:-webkit-autofill:hover,
+body.dark-theme form textarea:-webkit-autofill:hover,
+body.dark-theme form input:-webkit-autofill:focus,
+body.dark-theme form textarea:-webkit-autofill:focus {
+  -webkit-text-fill-color: white !important;
+  -webkit-box-shadow: 0 0 0px 1000px #15464b inset !important;
+  transition: background-color 5000s ease-in-out 0s !important;
 }
 
 @media (max-width: 420px) {
@@ -292,14 +330,6 @@ body.dark-theme form .form-control {
   #theme-toggle {
     font-size: 18px;
   }
-}
-
-body.dark-theme form input:focus,
-body.dark-theme form textarea:focus {
-  background-color: #c0c0c072 !important;
-  color: #000000 !important;
-  outline: none !important;
-  box-shadow: none !important;
 }
 
 .square-button {
