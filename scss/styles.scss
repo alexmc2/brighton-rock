@@ -35,6 +35,8 @@
   transition: all 0.5s ease-in-out;
 }
 
+
+
 .navbar-sticky {
   background-color: #006a48;
   opacity: 0.99;
@@ -152,7 +154,12 @@ html {
 
 @media (max-width: 992px) {
   .navbar {
-    background-color: transparent !important;
+    background-color: #006a48 !important;
+    transition: all 0.5s ease-in-out;
+  }
+
+  .dark-theme .navbar {
+    background-color: #15464b !important;
     transition: all 0.5s ease-in-out;
   }
 
